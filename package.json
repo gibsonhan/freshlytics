@@ -61,6 +61,8 @@
     "useragent": "2.3.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "@types/bcrypt": "3.0.0",
     "@types/compression": "0.0.36",
     "@types/connect-pg-simple": "4.2.0",
@@ -79,6 +81,7 @@
     "@typescript-eslint/parser": "1.9.0",
     "artillery": "1.6.0-28",
     "awesome-typescript-loader": "5.2.1",
+    "babel-jest": "^24.9.0",
     "css-loader": "2.1.1",
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.3.0",
@@ -92,6 +95,7 @@
     "mini-css-extract-plugin": "0.6.0",
     "nodemon": "1.19.0",
     "prettier": "1.17.1",
+    "react-test-renderer": "^16.9.0",
     "source-map-loader": "0.2.4",
     "ts-node": "8.1.0",
     "typescript": "3.4.5",
