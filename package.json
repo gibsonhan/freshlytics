@@ -19,7 +19,7 @@
     "seed": "ts-node ./src/server/seeds",
     "seed:test": "ts-node ./tests/fixtures/PageViews.fixture.ts",
     "lint": "eslint --ext .ts,.tsx .",
-    "test": "test",
+    "test": "jest",
     "test:load": "artillery run ./tests/load/artillery.yml",
     "precommit": "lint-staged"
   },
